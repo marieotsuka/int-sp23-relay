@@ -42,6 +42,7 @@ p{
   }
   .heart{
   	background-color: yellow;
+    transform: rotate(30deg);
   }
 }
 @media only screen and (max-width: 1500px){
