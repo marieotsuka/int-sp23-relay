@@ -131,7 +131,30 @@ p{
 
 }
 @media only screen and (max-width: 1000px){
-
+body {
+  background-color: lightpink;
+}
+.heart{
+  background-color: hotpink;
+  transform: rotate(90deg);
+  transition: transform 1000ms ease-in-out,filter 1000ms ease-in-out, background-color 1000ms ease-in-out;
+}
+.heart: hover{
+background-color: red;
+transform: rotate(270deg);
+filter: blur(10px);
+}
+h1{
+  font-size: 300%;
+  font-family: monospace;
+  color: blue;
+}
+h1: hover{
+  color: white;
+}
+body{
+  font-family: monospace;
+}
 }
 @media only screen and (max-width: 900px){
 
