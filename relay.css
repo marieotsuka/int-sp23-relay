@@ -56,6 +56,25 @@ p{
   }
 }
 @media only screen and (max-width: 1400px){
+  .heart {
+    background-color: pink;
+  }
+  .heart:hover {
+    background-color: red;
+    transform: rotate(-45deg);
+    filter: blur(0.5vw);
+  }
+
+  h1 {
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  }
+
+  p {
+    color: white;
+    font-weight: bold;
+  }
 
 }
 @media only screen and (max-width: 1600px){
