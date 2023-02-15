@@ -49,18 +49,11 @@ p{
   body {
     background-color: black;
     color: green;
-    font-family: input-serif, serif;
-    font-style: normal;
-    font-weight: 200;
   }
   .heart {
     background-color: aqua;
-  }
-  .jenna {
     transform: rotate(45deg);
-    background-color: magenta;
   }
-
 }
 @media only screen and (max-width: 1400px){
 
