@@ -161,6 +161,33 @@ body{
 }
 @media only screen and (max-width: 800px){
 
+.heart {
+  background-color:lightgrey;
+  filter: drop-shadow(5px 5px darkgrey);
+  height: 30px;
+  width: 30px;
+  animation: heart 1s infinite alternate ease-in-out;
+}
+
+body {
+  background-color: black;
+}
+h1 {
+  font-family:'bungee';
+  color: white;
+}
+p {
+  font-family:'bungee';
+  color:white;
+}
+@keyframes heart{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
 }
 @media only screen and (max-width: 700px){
 
