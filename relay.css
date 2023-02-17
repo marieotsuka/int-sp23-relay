@@ -199,7 +199,33 @@ p {
 
 }
 @media only screen and (max-width: 400px){
+.heart {
+  background-color: pink;
+  display: inline-block;
+  height: 60px;
+  margin: 10px;
+  position: relative;
+  top: 20px;
+  width: 30px;
+}
 
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: inherit;
+  border-radius: 50%;
+  height: 60px;
+  position: absolute;
+  width: 60px;
+}
+.heart:before {
+  top: -30px;
+  left: 0;
+}
+.heart:after {
+  left: 30px;
+  top: 0;
+}
 }
 @media only screen and (max-width: 600px){
 
