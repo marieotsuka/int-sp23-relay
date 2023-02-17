@@ -38,4 +38,5 @@ i.e. ` Marie: viewport 1600` and push to Git Hub
 | Emily		|	 200 | 8:45pm
 
 
-This exercise adapted from [Minkyoung Kim](http://minkyoungkim.com/home/).
+This [exercise](https://mkim.netlify.app/gdfwf22/projects) has been adapted from [Minkyoung Kim](http://minkyoungkim.com/home/) and [Sophia Spitulnik](https://sophiaspitulnik.com/index.html). 
+
