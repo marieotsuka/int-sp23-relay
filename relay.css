@@ -139,7 +139,7 @@ body {
   transform: rotate(90deg);
   transition: transform 1000ms ease-in-out,filter 1000ms ease-in-out, background-color 1000ms ease-in-out;
 }
-.heart: hover{
+.heart:hover{
 background-color: red;
 transform: rotate(270deg);
 filter: blur(10px);
@@ -149,7 +149,7 @@ h1{
   font-family: monospace;
   color: blue;
 }
-h1: hover{
+h1:hover{
   color: white;
 }
 body{
@@ -257,7 +257,39 @@ p {
   top: 0;
 }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 300px){
+body{
+  animation: back 5s infinite alternate ease-in-out;
+}
+
+@keyframes back{
+  20%{
+    background-color:rgb(101, 101, 185);
+  }
+  40%{
+    background-color:rgb(69, 69, 156);
+  }
+  60%{
+    background-color:rgb(38, 38, 113);
+  }
+  80%{
+    background-color:rgb(17, 17, 73);
+  }
+  100%{
+    background-color:rgb(3, 3, 31);
+  }
+}
+
+.heart{
+  background-color: white;
+  -webkit-box-shadow:0px 0px 51px 14px rgba(255,255,255,0.9);
+-moz-box-shadow: 0px 0px 51px 14px rgba(255,255,255,0.9);
+box-shadow: 0px 0px 51px 14px rgba(255,255,255,0.9);
+}
+
+h1{
+  color: white;
+}
 
 }
 @media only screen and (max-width: 200px){
